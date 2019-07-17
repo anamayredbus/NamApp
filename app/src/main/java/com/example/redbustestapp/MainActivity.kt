@@ -24,11 +24,11 @@ class MainActivity : AppCompatActivity() {
 
             var foh : String = foj.toString()
 
-        val fgr = Intent(this,Main2Activity::class.java)
+        val fg = Intent(this,Main2Activity::class.java)
 
-            fgr.putExtra("hello" , foh)
+            fg.putExtra("hello" , foh)
 
-        startActivity(fgr)
+        startActivity(fg)
         }
 
 
