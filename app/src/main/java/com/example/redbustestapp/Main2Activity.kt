@@ -14,11 +14,11 @@ class Main2Activity : AppCompatActivity() {
 
         bun = intent.extras
 
-        val co:String? = bun?.getString("hello")
+        val c:String? = bun?.getString("hello")
 
         val tex = findViewById<TextView>(R.id.textl)
 
-        tex.setText(co)
+        tex.setText(c)
 
 
     }
